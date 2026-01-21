@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketSystem</title>
+    <link rel="stylesheet" href="../static/css/tickets.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+    <script src='../static/js/script.js'></script>
+</head>
+<body>
+    <div class='container'>
+        <button class='btn' onclick='TicketForm()'>Ny ticket...</button>
+        <table>
+            <tr>
+                <th>Ticket ID</th>
+                <th>Tittel</th>
+                <th>Kategori</th>
+                <th>Status</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id='ticket-form'>
+        <div class='container2'>
+            <h1>Lag en ny ticket</h1>
+            <form action="" class= 'ticket'>
+            <p>Overksrift:</p>
+            <input type="text" class= 'navn' placeholder= 'Skriv inn problemet ditt...' required>
+            <p>Beksrivelse:</p>
+            <input type="text" class= 'mail' placeholder= 'Beskriv hva som skjedde...' required>
+
+            <label for="kategori">Vennligst velg kategorien</label>
+            <select id="kategorier" name="category">
+            <option value="x">x</option>
+            <option value="x">x</option>
+            </select>
+
+            <label for="status">Vennligst velg statusen</label>
+            <select id="statusen" name="roles">
+            <option value="x">x</option>
+            <option value="x">x</option>
+            </select>
+            
+            <button class='btn2'>Lagre</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

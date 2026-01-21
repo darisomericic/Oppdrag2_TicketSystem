@@ -1,0 +1,84 @@
+body {
+    background-color: #d7a25e;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #e9c89d;
+    opacity: 80%;
+    width: 30%;
+    height: 73vh;
+    transform: translateY(20%);
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(247, 247, 247);
+    font-family: 'Inter', sans-serif;
+    transform: translateY(80%);
+}
+
+.innlogging {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(25%);
+}
+
+
+input {
+  width: 50%;
+  align-self: center;
+  margin: 3px;
+  padding: 15px;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.password {
+    transform: translateY(40%);
+}
+
+.btn {
+    background-color: #D7A25E;
+    border: none;
+    transform: translateY(180%);
+    width: 30%;
+    align-self: center;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container p {
+    text-align: center;
+    font-size: clamp(10px, 14px, 15px);
+    transform: translateY(390%);
+    font-family: 'Inter';
+   
+    
+}
+
+.rolle {
+    transform: translateY(70%);
+}
+
+label {
+    text-align: center;
+    transform: translateY(140%);
+    font-family: 'Inter';
+}
+
+#roller {
+transform: translateY(150%);
+width: 50%;
+padding: 5px;
+align-self: center;
+}

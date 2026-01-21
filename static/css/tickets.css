@@ -1,0 +1,126 @@
+body {
+    background-color: #d7a25e;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  height: 25vh;          
+}
+
+.container button {
+    border: none;
+    background-color: #C1710B;
+    padding: 2vh;
+    width: 15%;
+    height: 40%;
+    color: white;
+    font-size: clamp(19px, 15px, 10px);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Inter';
+}
+
+table {
+
+  font-family: 'Inter', sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  transform: translateY(120%)
+
+}
+
+
+ th {
+  border: 2px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+#ticket-form {
+    display: none;
+}
+
+.container2 {
+    background-color: #e9c89d;
+    opacity: 80%;
+    width: 100%;
+    height: 85vh;
+    transform: translateY(-30%);
+    border-radius: 10px;
+   
+}
+
+.container2 h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    transform: translateY(80%);
+}
+
+.ticket {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(10%);
+}
+
+
+input {
+  width: 50%;
+  margin: 3px;
+  padding: 15px;
+  border-radius: 5px;
+  font-style: italic;
+  align-self: center;
+}
+
+.btn2 {
+    background-color: #D7A25E;
+    border: none;
+    transform: translateY(200%);
+    width: 30%;
+    align-self: center;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container2 p {
+  transform: translateX(24%);
+  font-family: 'Inter';
+
+}
+
+
+
+
+
+label {
+  text-align: center;
+  font-family: 'inter';
+  transform: translateY(100%);
+  line-height: 2;
+  
+}
+
+
+
+#kategorier {
+  width: 10%;
+  padding: 5px;
+  align-self: center;
+  transform: translateY(100%);
+}
+
+#statusen {
+  width: 10%;
+  padding: 5px;
+  align-self: center;
+  transform: translateY(100%);
+}

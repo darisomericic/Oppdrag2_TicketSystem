@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logg inn</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+    <div class='wrapper'>
+        <div class='container'>
+            <h1>Logg inn</h1>
+            <form action="" class= 'innlogging'>
+            <input type="text" class= 'mail' placeholder= 'Skriv inn e-post...' required>
+            <input type="text" class= 'password' placeholder= 'Skriv inn passord...' required>
+            <label for="rolle">Vennligst velg rollen</label>
+            <select id="roller" name="roles">
+            <option value="driftstøtte">Driftstøtte</option>
+            <option value="bruker">Bruker</option>
+            </select>
+            <button class='btn'>Logg inn</button>
+            <p>Er du her for første gang? <a href="../templates/register.html">Registrer deg her</a></p>
+            </form>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
