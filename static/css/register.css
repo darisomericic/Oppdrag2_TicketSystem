@@ -12,8 +12,8 @@ body {
     background-color: #e9c89d;
     opacity: 80%;
     width: 30%;
-    height: 85vh;
-    transform: translateY(10%);
+    height: 95vh;
+    transform: translateY(1%);
     border-radius: 10px;
    
 }
@@ -45,7 +45,7 @@ input {
 .btn {
     background-color: #D7A25E;
     border: none;
-    transform: translateY(150%);
+    transform: translateY(220%);
     width: 30%;
     align-self: center;
     color: white;
@@ -58,4 +58,21 @@ input {
   transform: translateX(22%);
   font-family: 'Inter';
 
+}
+
+.rolle {
+    transform: translateY(70%);
+}
+
+label {
+    text-align: center;
+    transform: translateY(140%);
+    font-family: 'Inter';
+}
+
+#roller {
+transform: translateY(150%);
+width: 50%;
+padding: 5px;
+align-self: center;
 }

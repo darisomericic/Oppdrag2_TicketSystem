@@ -23,6 +23,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-family: 'Inter';
+    transform: translateY(120%)
 }
 
 table {
@@ -39,6 +40,7 @@ table {
   border: 2px solid #000000;
   text-align: left;
   padding: 8px;
+  text-align: center;
 }
 
 #ticket-form {
@@ -123,4 +125,10 @@ label {
   padding: 5px;
   align-self: center;
   transform: translateY(100%);
+}
+
+td {
+  font-family: 'Inter', sans-serif;
+  border: 2px solid black;
+  text-align: center;
 }

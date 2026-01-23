@@ -17,29 +17,36 @@
                 <th>Tittel</th>
                 <th>Kategori</th>
                 <th>Status</th>
+        <div class="tickets-list">
+        {% if tickets %}
+            {% include 'ticket_rows.html' %}
+        {% endif %}
             </tr>
+         
+</div>
+
         </table>
     </div>
 
     <div id='ticket-form'>
         <div class='container2'>
             <h1>Lag en ny ticket</h1>
-            <form action="" class= 'ticket'>
-            <p>Overksrift:</p>
-            <input type="text" class= 'navn' placeholder= 'Skriv inn problemet ditt...' required>
+            <form action="/opprett_ticket" method='POST'  class= 'ticket'>
+            <p>Overskrift:</p>
+            <input type="text" class= 'navn' name='overskrift' placeholder= 'Skriv inn problemet ditt...' required>
             <p>Beksrivelse:</p>
-            <input type="text" class= 'mail' placeholder= 'Beskriv hva som skjedde...' required>
+            <input type="text" name='beskrivelse' class= 'mail' placeholder= 'Beskriv hva som skjedde...' required>
 
             <label for="kategori">Vennligst velg kategorien</label>
-            <select id="kategorier" name="category">
-            <option value="x">x</option>
-            <option value="x">x</option>
+            <select id="kategorier" name="kategori">
+            <option value="x">PC feil</option>
+            <option value="x">Alvorlig virus</option>
             </select>
 
             <label for="status">Vennligst velg statusen</label>
-            <select id="statusen" name="roles">
-            <option value="x">x</option>
-            <option value="x">x</option>
+            <select id="statusen" name="status">
+            <option value="x">Åpen</option>
+            <option value="x">Stengt</option>
             </select>
             
             <button class='btn2'>Lagre</button>
